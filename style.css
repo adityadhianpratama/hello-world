@@ -1,0 +1,80 @@
+body{
+	background-color: #1ba0e2;
+	*/background-image: url("image/bcg.jpg");*/
+	background-repeat: no-repeat;
+	font-size:16px
+	color:#444;
+	font-family: sans-serif;
+	width: 100%;
+    height: auto;
+    background-size: cover;
+}
+ 
+.content{	
+	width: 80%;
+	margin: 10px auto;
+    box-shadow: 10px 10px 2px gray;
+    min-height: 720px;
+    background: rgba(255, 255, 255, 0.7);
+}
+ 
+/*header*/
+img {
+    width: 100%;
+    height: auto;
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+  
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+
+div.badan{
+}
+ 
+div.halaman{
+	background-color: #1ba0e2;
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}
